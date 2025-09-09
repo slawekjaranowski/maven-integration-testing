@@ -2,6 +2,13 @@
 github:
   description: "Apache Maven core ITs"
   homepage: https://maven.apache.org/core-its
+  protected_branches:
+    master: { }
+    maven-4.x:  { }
+    maven-3.9.x:  { }
+    maven-3.8.x:  { }
+  pull_requests:
+    del_branch_on_merge: true
   labels:
     - java
     - build-management
